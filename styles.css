@@ -1,0 +1,93 @@
+body {
+    font-family: "Segoe UI", Tahoma, geneva, Verdana, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: gray;
+    outline: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    font-size: 36px;
+}
+
+.button {
+    width: 170px;
+    height:  60px;
+    border-radius: 16px;
+    border: none;
+    background-color: #6AAA64;
+    font-size: 32px;
+    color: #fff;
+}
+
+.button:hover {
+    border: 3px solid #6AAA64;
+    background-color: white;
+    color: #6AAA64;
+    cursor: pointer;
+}
+/* debo poner en este orden los colores para que que no se solapen */
+
+.gold {
+    background-color: #C9B458;
+}
+
+.green {
+    background-color: #6AAA64;
+}
+
+.gray {
+    background-color: #787C7E;
+}
+
+
+.body-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
