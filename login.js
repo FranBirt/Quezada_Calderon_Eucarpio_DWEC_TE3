@@ -15,7 +15,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     const inputUsuario = document.getElementById('username').value;
     const inputContrasenya = document.getElementById('password').value;
 
-    const user = users.find(u => u.usuario === inputUsuario && u.contrasenya === inputContrasenya); // Se ha cambiado a u.contrasenya
+    const user = users.find(u => u.usuario === inputUsuario && u.contrasenya === inputContrasenya);
 
     if (user) {
         const regex = /^[a-zA-Z0-9]+$/;
